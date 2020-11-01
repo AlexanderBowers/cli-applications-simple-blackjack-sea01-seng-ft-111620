@@ -40,7 +40,7 @@ input = get_user_input
     input = get_user_input
   end
   if input == "s"
-   return s
+   return "s"
   end
   if input == "h"
     total += deal_card
