@@ -43,7 +43,8 @@ input = get_user_input
     prompt_user
     input get_user_input
   end
-
+  if input == "h"
+    total += deal_card
 
 end
 
