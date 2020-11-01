@@ -32,6 +32,12 @@ end
 
 def hit?(total)
 input = ""
+prompt_user
+input = get_user_input
+  if !(input == "h" || input == "h")
+    invalid_command
+    prompt_user
+    input = get_user_input
 end
 def invalid_command
 puts "Please enter a valid command"
