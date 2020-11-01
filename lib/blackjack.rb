@@ -30,7 +30,7 @@ display_card_total(total)
 total
 end
 
-def hit?
+def hit?(total)
 input = ""
 prompt_user
 input = get_user_input
