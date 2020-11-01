@@ -34,12 +34,15 @@ def hit?(total)
 input = ""
 prompt_user
 input = get_user_input
-  while !(input == "h" || input == "h")
+  while !(input == "s" || input == "h")
     invalid_command
     prompt_user
     input = get_user_input
   end
+  
+  
 end
+
 def invalid_command
 puts "Please enter a valid command"
 end
