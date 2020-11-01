@@ -39,7 +39,11 @@ input = get_user_input
     prompt_user
     input = get_user_input
   end
-
+  while input == "s"
+    prompt_user
+    input get_user_input
+  end
+  
 
 end
 
