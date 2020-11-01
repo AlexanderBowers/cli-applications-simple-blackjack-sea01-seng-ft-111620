@@ -40,7 +40,7 @@ input = get_user_input
     input = get_user_input
   end
   if input == "s"
-   total
+    return nil
   end
   if input == "h"
     deal_card
