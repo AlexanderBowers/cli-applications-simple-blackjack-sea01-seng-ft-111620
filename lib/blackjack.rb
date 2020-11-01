@@ -31,25 +31,8 @@ total
 end
 
 def hit?(total)
-  input = ""
-  prompt_user
-  input = get_user_input
-  #binding.pry
-  until input == 'h'
-    invalid_command
-    prompt_user
-    input = get_user_input
-  end
-#  binding.pry
-    if input == 'h'
-      total += deal_card
-    elsif input == 's'
-      total
-      input = get_user_input
-    end
-  total
+input = ""
 end
-
 def invalid_command
 puts "Please enter a valid command"
 end
