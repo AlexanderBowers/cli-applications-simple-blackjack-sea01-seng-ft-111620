@@ -41,7 +41,7 @@ input = get_user_input
   end
   while input == "s"
     prompt_user
-    input = h
+    input = "h"
   end
   if input == "h"
     total += deal_card
