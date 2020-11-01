@@ -63,6 +63,7 @@ def runner
     hit?(card_total)
     while hit(card_total) == "s"
       hit?(card_total)
+    end
     display_card_total(card_total)
   end
 end_game
