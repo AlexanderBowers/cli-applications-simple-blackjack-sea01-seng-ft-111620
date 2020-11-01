@@ -30,7 +30,7 @@ display_card_total(total)
 total
 end
 
-def hit?(total)
+def hit?
 input = ""
 prompt_user
 input = get_user_input
@@ -43,9 +43,8 @@ input = get_user_input
    total
   end
   if input == "h"
-    total += deal_card
+    deal_card
   end
-  total
 end
 
 def invalid_command
